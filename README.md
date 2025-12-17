@@ -9,7 +9,12 @@ This project is a quiet visual archive light, texture, form, and everyday scenes
 - Built using **HTML & CSS**
 - Masonry-style layout using modern CSS
 - Responsive across desktop and mobile
-- No frameworks, no JavaScript — just the essentials
+- No frameworks, no JavaScript, just the essentials
+
+
+## Live Site
+
+[*Gallery*](https://sotooba.github.io/My-Gallery/)
 
 
 ## Philosophy
@@ -21,6 +26,5 @@ This site exists to slow down the scroll and invite attention.
 
 ## License
 
-All photographs are © the author.  
-Code is open for learning and inspiration.
+All photographs are © the author. 
 
