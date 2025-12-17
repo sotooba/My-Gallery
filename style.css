@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  /* padding: 2rem; */
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 2rem 1rem;
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
+}
+
+header p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header p a {
+
+   text-decoration: none;
+  color: rgb(2, 2, 36);
+  transition: transform 3s ease;
+}
+
+header p a:hover {
+  background-color: rgb(2, 2, 36);
+     padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 10px;
+}
+
+header h1 {
+  text-align: center;
+  color: rgb(2, 2, 36);
+}
+
+main {
+  padding: 2rem;
+}
+
+.masonry {
+  column-count: 4;
+  column-gap: 1rem;
+  width: 100%;
+}
+
+.masonry img {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in;
+}
+
+.masonry img:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 4px 5px 2px rgb(100, 100, 100);
+}
+
+
+@media (max-width: 912px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 576px) {
+  main {
+    padding: 1.5rem;
+  }
+
+  .masonry {
+    column-count: 2;
+    column-gap: 10px;
+  }
+
+}
